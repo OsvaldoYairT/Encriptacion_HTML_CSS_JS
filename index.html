@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script type="text/javascript" src="/scrip.js"></script>
+    <title>Encriptacion de texto</title>
+</head>
+<body>
+    <header class="logoD">
+        <img src="img/Logo.png" alt="logo" class="logo" />
+    </header>
+    <main>
+        <section>
+        <div class="A">
+        <textarea  class="enc"placeholder="Ingrese el texto aqui" type="text" id="txtEncriptado" ></textarea>
+        </div>
+        <div class="botones">
+        <button class="encrip" type="button" id="btnEncriptado">Encriptado</button>
+        <button class="desencrip"type="button" id="btnDesecriptado">Desecriptado</button>
+        </div>
+    </section>
+        <section class="chica">
+        <div class="chicaD">
+        <img src="img/Muñeco.png" alt="" class="doll" />
+        </div>
+        <div class="mensajes">
+        <p class="msj1">Ningun mensaje fue encontrado</p>
+        <p class="msj2">Ingresa el texto que desees encriptar o desencriptar.</p>
+        </div>
+        <div class="textarea__container hide">
+        <textarea class="resu" name="resultado" id="txtDesecriptado" cols="30"rows="10"></textarea>
+        </div>
+        <div class="copiB">
+        <button class="copi" type="button" id="btnCopiado">Copiar</button>
+        </div>
+        </section>
+    </main>
+    <footer>
+        <div class="redes">
+        <p class="copyy">© Copyright Osvaldo Yair Torres Sanchez - 2023</p>
+        <a href="https://www.linkedin.com/in/osvaldo-torres-s/" id="linkedin"><img src="img/linke.png"></a> 
+        <a href="https://github.com/OsvaldoYairT/" id="github"><img src="img/git.png"></a>
+        </div>
+    </footer>
+</body>
+<script>
+    var btn = document.querySelector("#btnEncriptado");
+    btn.onclick = encriptado;
+    var btn2 = document.querySelector("#btnDesecriptado");
+    btn2.onclick = desencriptado;
+    var btn3 = document.querySelector("#btnCopiado");
+    btn3.onclick = copiando;
+  </script>
+</html>

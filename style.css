@@ -1,0 +1,199 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'inter';
+}
+body{
+    background-color: white;
+}
+header{
+    width: 100%;
+    height: 100%;
+}
+.logo {
+    width: 10%;
+    height: 50%;
+    padding-top: 20px;
+    padding-left: 40px;
+}
+
+main{
+    position: absolute;
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.A{
+    position: absolute;
+    left: 200px;
+    top: 100px;
+    height: 80px;
+    padding-left: 100px;
+    width: 1000px;
+    height: 600px;
+}
+
+.enc{
+    width: 80%;
+    height: 100%;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    color: #0A3871;
+    font-size: 32px;
+    font-weight: 400;
+    font-family: 'Inter';
+}
+.enc::placeholder{
+    color: #495057;
+}
+
+.botones{
+    position: absolute;
+    top: 800px;
+    height: 80px;
+    padding-left: 15%;
+    padding-top: 15px;
+}
+.encrip{
+    width: 320px;
+    height: 67px;
+    border-radius: 24px;
+    background-color: #0A3871;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    border: nome;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.desencrip{
+    width: 320px;
+    height: 67px;
+    border-radius: 24px;
+    background-color: white;
+    color: #0A3871;
+    font-size: 16px;
+    font-weight: 400;
+    margin-right: 20px;
+    border: 1px solid #0A3871;
+    cursor: pointer;
+}
+
+.chica{
+    display: block;
+    position: relative;
+    width: 400px;
+    height:90%;
+    right: 200px;
+    padding-right: 20px;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    border-radius: 32px;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.50);
+}
+.chicaD{
+    position: absolute;
+    left: 30px;
+    top: 180px;
+    box-sizing: border-box;
+    padding-top: 50px;
+}
+.mensajes {
+    position: absolute;
+    box-sizing: border-box;
+    top: 570px;
+    left: 5px;
+}
+.mensajes p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'inter';
+    text-align: center;
+    color: #343A40;
+    padding-top: 20px;
+}
+.resu{
+    width: 328px;
+    height: 110px;
+    background-color: white;
+    color: #0A3871;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Inter';
+    border: none;
+    cursor: pointer;
+    position: relative;
+    top: 40px;
+    left: 40px;
+}
+
+.copi{
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+    background-color: #ffffff;
+    color: #0A3871;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Inter';
+    border: 1px solid #0A3871;
+    cursor: pointer;
+    position: relative;
+    top: 640px;
+    left: 40px;
+}
+footer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    color: #0A3871;
+    font-size: 86px;
+    font-family: 'Inter';
+    border: none;
+    background-color: #0A3871;
+    position: relative;
+    top: 1000px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 35px;
+}
+
+.copyy{
+    font-size: 36px;
+    position: relative;
+    font-family:'Inter';
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 150%;
+    color: white;
+}
+a img{
+    
+    max-height: 100%;
+    max-width: 100%;  
+    object-fit: contain;
+    display: flex;
+}
+#linkedin{
+
+    display: inline-block;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    bottom: 19px;
+
+}
+
+#github{
+
+    display: inline-block;
+    position: relative;
+    height: 80px;
+    width: 80px;
+}
